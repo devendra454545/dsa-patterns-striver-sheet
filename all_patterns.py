@@ -75,3 +75,11 @@ def p6(f):
 #   *****
 #  *******
 # *********
+def p7(g):
+    for i in range(g):
+        for j in range(g-1-i):
+            print(' ',end='')
+        for k in range((2*i)+1): 
+            print('*',end='')
+        print()
+p7(5)        
