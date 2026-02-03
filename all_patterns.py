@@ -82,4 +82,4 @@ def p7(g):
         for k in range((2*i)+1): 
             print('*',end='')
         print()
-p7(5)        
+       
