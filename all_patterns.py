@@ -82,4 +82,18 @@ def p7(g):
         for k in range((2*i)+1): 
             print('*',end='')
         print()
-       
+
+# p8
+# *********
+#  *******
+#   *****
+#    ***
+#     *       
+def p8(h):
+    for i in range(h):
+        for j in range(i):
+            print(' ',end='')
+        for k in range(2*(h-i)-1):
+            print('*',end='')
+        print()
+p8(5)
