@@ -143,5 +143,18 @@ def p10(m):
                 print('*', end='')
         print()
 
+# p11
+# 1
+# 01
+# 101
+# 0101
+# 10101
+def p11(n):
+    for i in range(n):
+        for j in range(i+1):
+            if ((i%2==0 and j%2==0)or(i%2==1 and j%2==1)):
+                print('1',end='')
+            else:
+                print('0',end='')
+        print()
 
-            
