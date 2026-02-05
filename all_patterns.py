@@ -205,6 +205,12 @@ def p14(q):
                 print(ch,end='')
         print()
 
+# Alternate method of p14() is p14a()
+def p14a(q):
+    for i in range(q):
+        for ch in range(ord('A'),ord('A')+i+1):
+            print(chr(ch),end='')
+        print()
 
 # p15
 # ABCDE
