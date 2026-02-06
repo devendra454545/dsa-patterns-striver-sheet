@@ -250,3 +250,18 @@ def p16(s):
             print(ch,end='')
         ch = chr(ord(ch)+1)
         print()
+
+# p17
+#    A   
+#   ABA  
+#  ABCBA
+# ABCDCBA
+def p17(t):
+    for i in range(t):
+        for j in range(t-i-1):
+            print(' ',end='')
+        for ch in range(ord('A'),ord('A')+i+1):
+            print(chr(ch),end='')
+        for ch2 in range(ord('A')+i-1,ord('A')-1,-1):
+            print(chr(ch2),end='')
+        print()
