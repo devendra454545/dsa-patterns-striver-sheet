@@ -272,7 +272,6 @@ def p17(t):
 # CDE 
 # BCDE 
 # ABCDE
-
 def p18(u):
     for i in range(u):
         start = ord('A')+u-1-i
@@ -291,7 +290,25 @@ def p18(u):
 # ***    ***
 # ****  ****
 # **********
+def p19(v):
+    for i in range(v):
+        for j in range(v - i):
+            print('*', end='')
+        for k in range(2 * i):
+            print(' ', end='')
+        for j in range(v - i):
+            print('*', end='')
+        print()
 
+    for i in range(v):
+        for j in range(i + 1):
+            print('*', end='')
+        for k in range(2 * (v - i - 1)):
+            print(' ', end='')
+        for j in range(i + 1):
+            print('*', end='')
+        print()
+p19(5)
 
 
 
