@@ -1,4 +1,4 @@
-# DSA Pattern Practice in Python (Patterns 1–18)
+# DSA Pattern Practice in Python (Patterns 1–21)
 
 This repository contains the pattern problems I practiced while learning Data Structures and improving my logic building skills.
 
