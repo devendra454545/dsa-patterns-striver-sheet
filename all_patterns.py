@@ -323,7 +323,7 @@ def p20(w):
         if(i<=w):
             for j in range(i):
                 print('*',end='')
-            for k in range(2*(w-i)):
+            for j in range(2*(w-i)):
                 print(' ',end='')
             for j in range(i):
                 print('*',end='')
@@ -331,7 +331,7 @@ def p20(w):
         else:
             for j in range(i,2*w):
                 print('*',end='')
-            for k in range((2*i)-(2*w)):
+            for j in range((2*i)-(2*w)):
                 print(' ',end='')
             for j in range(i,2*w):
                 print('*',end='')
@@ -342,7 +342,14 @@ def p20(w):
 # *  *
 # *  *
 # ****
-
+def p21(x):
+    for i in range(x):
+        for j in range(x):
+            if (i==0 or j==0 or i==x-1 or j==x-1):
+                print('*',end='')
+            else:
+                print(' ',end='')
+        print('')
 
 # p22
 # 4444444
