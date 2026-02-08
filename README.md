@@ -48,4 +48,4 @@ These patterns are based on the pattern section from Striver’s TUF DSA Sheet.
 
 ---
 
-I will keep adding more patterns (19–22 next) as I continue practicing.
+I will add the last pattern, p22 as I continue practicing.
