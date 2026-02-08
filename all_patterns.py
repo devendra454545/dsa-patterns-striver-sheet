@@ -299,7 +299,6 @@ def p19(v):
         for j in range(v - i):
             print('*', end='')
         print()
-
     for i in range(v):
         for j in range(i + 1):
             print('*', end='')
@@ -308,9 +307,6 @@ def p19(v):
         for j in range(i + 1):
             print('*', end='')
         print()
-p19(5)
-
-
 
 # p20
 # *        *
@@ -322,12 +318,31 @@ p19(5)
 # ***    ***
 # **      **
 # *        *
+def p20(w):
+    for i in range(1,(2*w)):
+        if(i<=w):
+            for j in range(i):
+                print('*',end='')
+            for k in range(2*(w-i)):
+                print(' ',end='')
+            for j in range(i):
+                print('*',end='')
+            print()
+        else:
+            for j in range(i,2*w):
+                print('*',end='')
+            for k in range((2*i)-(2*w)):
+                print(' ',end='')
+            for j in range(i,2*w):
+                print('*',end='')
+            print()
 
 # p21
 # ****
 # *  *
 # *  *
 # ****
+
 
 # p22
 # 4444444
