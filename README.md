@@ -1,4 +1,4 @@
-# DSA Pattern Practice in Python (Patterns 1–21)
+# DSA Pattern Practice in Python (Patterns 1–22)
 
 This repository contains the pattern problems I practiced while learning Data Structures and improving my logic building skills.
 
@@ -38,6 +38,7 @@ Make sure Python is installed, then run the file and call any function:
 ```python
 p7(5)    # Pyramid star pattern
 p17(4)   # Alphabet palindrome pyramid
+p22(4)   # Number box pattern
 ```
 
 ---
@@ -48,4 +49,4 @@ These patterns are based on the pattern section from Striver’s TUF DSA Sheet.
 
 ---
 
-I will add the last pattern, p22 as I continue practicing.
+All 22 patterns are now completed as part of my DSA practice journey.
