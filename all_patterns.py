@@ -359,3 +359,15 @@ def p21(x):
 # 4322234
 # 4333334
 # 4444444
+def p22(y):
+    size = 2*y - 1
+    for i in range(size):
+        for j in range(size):
+            top = i
+            left = j
+            bottom = size - 1 - i
+            right  = size - 1 - j
+            min_distance = min(top, left, bottom, right)
+            print(y - min_distance,end='')
+        print()
+p22(4)
